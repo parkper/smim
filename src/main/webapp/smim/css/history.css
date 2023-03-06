@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+
+
+@media screen and (min-width:1400px) {
+  .hi-bg-1 {
+    position:relative; width:100%; height:950px; 
+    background:url(../imgs/history/hi-bg-1.jpg) no-repeat center center;
+    background-size:cover; background-attachment:fixed;
+  }
+  .hi-wrap-box {position:relative; width:1300px; height:100vh; margin:0 auto;}
+  .hi-center{
+    position:absolute; left:0; bottom:0; padding-bottom:180px;
+    color:#F2F2F2; z-index:9;
+  }
+  .hi-center h1{
+    color: rgba(0,0,0,0.1);
+    font-size: 110px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-size: cover;
+    background-image: url(../imgs/history/hi-bg-3.jpg);
+    -webkit-background-clip: text;
+    animation: background-text-animation 15s linear infinite;
+  }
+  @keyframes background-text-animation {
+    0%{
+      background-position: left 0px top 50%;
+    }
+    50%{
+      background-position: left 1500px top 50%;
+    }
+    100%{
+      background-position: left 0px top 50%;
+    }
+  }
+  .hi-bg-black {position:absolute; left:0; top:0; width:100%; height:950px; background:rgba(0,0,0,0.4);}
+  
+
+  .hi-bg-2 {
+    position:relative; width:100%; height:750px; 
+    background:url(../imgs/history/hi-bg-2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .hi-bg-3 {
+    position:relative; width:100%; height:750px; 
+    background:url(../imgs/history/hi-bg-3.jpg) no-repeat center center;
+    background-size:cover;
+  }
+
+  .hi-txt-wrap-1, .hi-txt-wrap-2 {
+    position:relative; 
+    width:1350px; height:250px; margin:0 auto; 
+    background:#F2F2F2;
+    transition:all 0.4s ease; 
+  }
+
+  .hi-txt-box-1, .hi-txt-box-2 {
+    position:absolute;
+    width:100%; height:100%; padding:0 260px; margin-top:70px;
+    text-align:center; 
+  }
+
+
+    .hi-txt-box-1 a, .hi-txt-box-2 a {
+      width:200px; height:50px; margin:30px auto;
+      font-size:18px; text-shadow:1px 0px 0px #393e41; line-height:50px;
+      color:#bca0cb; border:1px solid #bca0cb; border-radius:20px;
+      transition:all 0.4s ease;
+    }
+ 
+  .hi-txt-box-1 a:hover, .hi-txt-box-2 a:hover {
+    color:#F2F2F2; background:#bca0cb;
+  }
+
+  .hi-attachment-box-1 {
+    position:absolute;
+    left:0; top:0; width:100%; height:750px;
+    background:url(../imgs/history/hi-bg-2.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+  .hi-attachment-box-2 {
+    position:absolute;
+    left:0; top:0; width:100%; height:750px;
+    background:url(../imgs/history/hi-bg-3.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+} /*end:@media screen and (min-width:1400px)*/ 
+
+@media screen and (min-width:1000px) and (max-width:1399px) {
+  .hi-bg-1 {
+    position:relative; width:100%; height:950px; background:url(../imgs/history/hi-bg-1.jpg) no-repeat center center;
+    background-size:cover; background-attachment:fixed;
+  }
+  .hi-bg-2 {
+    position:relative; width:100%; height:750px; background:url(../imgs/history/hi-bg-2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .hi-bg-3 {
+    position:relative; width:100%; height:750px; background:url(../imgs/history/hi-bg-3.jpg) no-repeat center center;
+    background-size:cover;
+  }
+
+  .hi-wrap-box {position:relative; width:1000px; height:100vh; margin:0 auto;}
+  .hi-center{
+    position:absolute; left:0; bottom:0; padding-bottom:180px;
+    color:#F2F2F2; z-index:9;
+  }
+  
+ 
+  .hi-center h1{
+    color: rgba(0,0,0,0.1);
+    font-size: 110px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-size: cover;
+    background-image: url(../imgs/history/hi-background.jpg);
+    -webkit-background-clip: text;
+    animation: background-text-animation 15s linear infinite;
+  }
+  @keyframes background-text-animation {
+    0%{
+      background-position: left 0px top 50%;
+    }
+    50%{
+      background-position: left 1500px top 50%;
+    }
+    100%{
+      background-position: left 0px top 50%;
+    }
+  }
+  .hi-bg-black {position:absolute; left:0; top:0; width:100%; height:950px; background:rgba(0,0,0,0.4);}
+
+  .hi-txt-wrap-1, .hi-txt-wrap-2 {
+    position:relative; 
+    width:1000px; height:250px; margin:0 auto;
+    background:#F2F2F2;
+    transition:all 0.4s ease;
+  }
+
+  .hi-txt-box-1, .hi-txt-box-2 {
+    position:absolute;
+    width:100%; height:100%; padding:0 260px; margin-top:50px;
+    text-align:center; 
+  }
+  .hi-txt-box-1 a, .hi-txt-box-2 a {
+    width:200px; height:50px; margin:30px auto;
+    font-size:18px; text-shadow:1px 0px 0px #393e41; line-height:50px;
+    color:#bca0cb; border:1px solid #bca0cb; border-radius:20px;
+    transition:all 0.4s ease;
+  }
+  .hi-txt-box-1 a:hover, .hi-txt-box-2 a:hover {
+    color:#F2F2F2; background:#bca0cb;
+  }
+
+
+  .hi-attachment-box-1 {
+    position:absolute;
+    left:0; top:0; width:100%; height:750px;
+    background:url(../imgs/history/hi-bg-2.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+  .hi-attachment-box-2 {
+    position:absolute;
+    left:0; top:0; width:100%; height:750px;
+    background:url(../imgs/history/hi-bg-3.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+} /*end:@media screen and (min-width:1000px) and (max-width:1399px)*/
+
+@media screen and (min-width:600px) and (max-width:999px) {
+  .hi-bg-1 {
+    position:relative; width:100%; height:950px; background:url(../imgs/history/hi-bg-1.jpg) no-repeat center center;
+    background-size:cover; background-attachment:fixed;
+  }
+  .hi-bg-2 {
+    position:relative; width:100%; height:750px; background:url(../imgs/history/hi-bg-2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .hi-bg-3 {
+    position:relative; width:100%; height:750px; background:url(../imgs/history/hi-bg-3.jpg) no-repeat center center;
+    background-size:cover;
+  }
+
+  .hi-wrap-box {position:relative; width:600px; height:100vh; margin:0 auto;}
+  .hi-center{
+    position:absolute; left:18%; bottom:0; padding-bottom:180px;
+    color:#F2F2F2; z-index:9;
+  }
+  .hi-center h1{
+    color: rgba(0,0,0,0.1);
+    font-size: 110px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-size: cover;
+    background-image: url(../imgs/history/hi-background.jpg);
+    -webkit-background-clip: text;
+    animation: background-text-animation 15s linear infinite;
+  }
+  @keyframes background-text-animation {
+    0%{
+      background-position: left 0px top 50%;
+    }
+    50%{
+      background-position: left 1500px top 50%;
+    }
+    100%{
+      background-position: left 0px top 50%;
+    }
+  }
+  .hi-bg-black {position:absolute; left:0; top:0; width:100%; height:950px; background:rgba(0,0,0,0.4);}
+
+  .hi-txt-wrap-1, .hi-txt-wrap-2 {
+    position:relative; 
+    width:600px; height:250px; margin:0 auto;
+    background:#F2F2F2;
+    transition:all 0.4s ease;
+  }
+
+  .hi-txt-box-1, .hi-txt-box-2 {
+    position:absolute;
+    width:100%; height:100%; padding:0 130px; margin-top:40px;
+    text-align:center; 
+  }
+  .hi-txt-box-1 a, .hi-txt-box-2 a {
+    width:200px; height:50px; margin:30px auto;
+    font-size:15px; text-shadow:1px 0px 0px #393e41; line-height:50px;
+    color:#bca0cb; border:1px solid #bca0cb; border-radius:20px;
+    transition:all 0.4s ease;
+  }
+  .hi-txt-box-1 a:hover, .hi-txt-box-2 a:hover {
+    color:#F2F2F2; background:#bca0cb;
+  }
+  
+
+  .hi-attachment-box-1 {
+    position:absolute;
+    left:0; top:0; width:100%; height:750px;
+    background:url(../imgs/history/hi-bg-2.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+  .hi-attachment-box-2 {
+    position:absolute;
+    left:0; top:0; width:100%; height:750px;
+    background:url(../imgs/history/hi-bg-3.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+} /*end:@media screen and (min-width:600px) and (max-width:999px)*/
+
+@media screen and (max-width:599px) {
+  .hi-bg-1 {
+    position:relative; width:100%; height:810px; background:url(../imgs/history/hi-bg-1.jpg) no-repeat center center;
+    background-size:cover; background-attachment:fixed;
+  }
+  .hi-bg-2 {
+    position:relative; width:100%; height:600px; background:url(../imgs/history/hi-bg-2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .hi-bg-3 {
+    position:relative; width:100%; height:600px; background:url(../imgs/history/hi-bg-3.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .hi-wrap-box {position:relative; width:320px; height:810px; margin:0 auto;}
+  .hi-center{
+    position:absolute; left:0; bottom:120px; width:100%; 
+    padding-left:18%; color:#F2F2F2; z-index:9;
+  }
+
+  .hi-center h1{
+    color: rgba(0,0,0,0.1);
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-size: cover;
+    background-image: url(../imgs/history/hi-background.jpg);
+    -webkit-background-clip: text;
+    animation: background-text-animation 15s linear infinite;
+  }
+  @keyframes background-text-animation {
+    0%{
+      background-position: left 0px top 50%;
+    }
+    50%{
+      background-position: left 1500px top 50%;
+    }
+    100%{
+      background-position: left 0px top 50%;
+    }
+  }
+  .hi-bg-black {position:absolute; left:0; top:0; width:100%; height:810px; background:rgba(0,0,0,0.4);}
+
+  .hi-txt-wrap-1, .hi-txt-wrap-2 {
+    position:relative; 
+    width:400px; height:250px; margin:0 auto;
+    background:#F2F2F2;
+    transition:all 0.4s ease;
+  }
+
+  .hi-txt-box-1, .hi-txt-box-2 {
+    position:absolute;
+    width:320px; height:100%; padding:18px 30px; margin:26px 0 0 35px;
+    font-size:12px; text-align:center; 
+  }
+  .hi-txt-box-1 a, .hi-txt-box-2 a {
+    width:200px; height:50px; margin:30px auto;
+    font-size:15px; text-shadow:1px 0px 0px #393e41; line-height:50px;
+    color:#bca0cb; border:1px solid #bca0cb; border-radius:20px;
+    transition:all 0.4s ease;
+  }
+  .hi-txt-box-1 a:hover, .hi-txt-box-2 a:hover {
+    color:#F2F2F2; background:#bca0cb;
+  }
+
+
+  .hi-attachment-box-1 {
+    position:absolute;
+    left:0; top:0; width:100%; height:600px;
+    background:url(../imgs/history/hi-bg-2.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+
+  .hi-attachment-box-2 {
+    position:absolute;
+    left:0; top:0; width:100%; height:600px;
+    background:url(../imgs/history/hi-bg-3.jpg) center center;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+} /*end:@media screen and (max-width:599px)*/
+
+
+
+
+
+
+
+
+

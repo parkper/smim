@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+
+.hi-all-container {
+  height: 100vh; margin-top:20px;
+}
+
+.hi-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sidebar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.sidebar div h1 {text-transform:uppercase;}
+.sidebar div p {
+  width:400px; font-size:20px;
+}
+.sidebar h1 {
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.main-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+.hi-container .controls button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+}
+
+.hi-container .controls .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.hi-container .controls .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+@media screen and (min-width:1000px) and (max-width:1399px) {
+  .sidebar div h1 {text-transform:uppercase;}
+.sidebar div p {
+  width:300px; font-size:18px;
+}
+}
+@media screen and (min-width:600px) and (max-width:999px) {
+  button {
+    background-color: #fff;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 12px;
+  }
+  .hi-container .controls button {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    z-index: 100;
+  }
+  .sidebar div h1 {font-size:24px;}
+  .sidebar div p {width:300px; padding:0 50px; font-size:15px;}
+
+}
+
+@media screen and (max-width:599px) {
+  .hi-all-container {
+    height: 100vh;
+  }
+  
+  .hi-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .sidebar > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+ 
+  .sidebar h1 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .main-slide {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 65%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .main-slide > div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #fff;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 10px;
+  }
+  
+  button:hover {
+    color: #222;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .hi-container .controls button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+  }
+  
+  .hi-container .controls .down-button {
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .hi-container .controls .up-button {
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .sidebar div h1 {font-size:18px;}
+  .sidebar div p {width:300px; padding:0 90px; font-size:12px;}
+}

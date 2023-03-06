@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+
+.flex-prev .bi, .flex-next .bi {font-size:42px; color:#FFF; transition:all 0.2s ease;}
+.flex-prev .bi:hover {font-size:60px;}
+.flex-next .bi:hover {font-size:60px;}
+a {display:block; color:333; text-decoration:none;}
+

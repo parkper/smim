@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+.bt {width:80px; height:40px; text-align:center; line-height:20px; border-radius:10px; border:1px solid #333; }
+.bd-bn-img-1 {
+	background:url('../imgs/consulting/co-mbn-bg.jpg') no-repeat center center;
+	background-size:cover; background-attachment:fixed;
+}
+
+/*===== list.jsp =====  */
+.bd-bn-img-1 .db-title {border-bottom:none;}
+.list-center {
+	width:350px; margin:0 auto; padding-top:230px;
+}
+  .list-center h1{
+    color: rgba(0,0,0,0.1);
+    font-size: 60px; text-transform: capitalize; font-weight: 700;
+    background-size: cover;
+    background-image: url(../imgs/db/memberlist.jpg);
+    -webkit-background-clip: text;
+    animation: background-text-animation 15s linear infinite;
+  }
+
+.bd-container {width:700px; margin:0 auto;}
+.bd-txt {height:30px; font-size:15px; line-height:30px; padding-top:28px; margin-top:50px;}
+.bd-table {width:100%;}
+.bd-table th, .bd-table td {padding:10px 0;}
+.bd-table th, .bd-title {background:#E8E8E8;} 
+.bd-table tr > td > a {color:#333;}
+td.subject {text-align:left}
+td.subject > a {display:inline-block;}
+
+.board-subject {width:350px; height:10px;  font-size:20px; margin:50px auto;}
+.writing {width:150px; height:40px; margin:0 0 0 670px;}
+.listinput {margin-left:100px; height:60px;}
+.input-combo {width:80px; text-align:center; margin-right:5px;}
+.input-combo, .input-search, .bt-find {border-radius:10px; border:1px solid #333;}
+.input-search {width:250px; text-align:center;}
+.bt-find {width:80px; height:40px; color:#F8F8F8; background:#333;}
+
+/*===== read.jsp =====  */
+.bd-title, td {text-align:center;}
+#read-count {
+	float:right; width:100px; height:30px; line-height:30px; 
+	text-align:center; font-size:13px;
+	border:1px solid #E4E4E4; border-radius:10px;
+	transition:all 0.4 ease;
+	}
+#read-count:hover {color:#F2F2F2; background:#333;}
+
+
+/*===== post.jsp =====  */
+.bd-bn-img-2 {
+	background:url(../imgs/board/bd-bn-img-2.jpg) no-repeat center center;
+	background-size:cover; background-attachment:fixed;
+}
+.post-container {width:800px; margin-top:80px;}
+
+.input-pbox {border-radius:10px; border:1px solid #333; text-align:center;}
+.ip-ulbox {border:1px solid #333; width: 440px; height:60px; text-align:center; padding:15px; border-radius:10px;}
+#post-text {font-size:18px; font-weight:bold;}
+#post-name {
+	display:inline; margin-right:10px; padding-right:10px; 
+	font-size:18px; font-weight:bold;
+	border-right:1px solid #333;	
+}
+
+
+.ip-idbox {text-align:center;}
+.ip-idbox, .ip-ttbox, .ip-pwbox {height:40px;}
+.ip-idbox, .ip-ttbox, .ip-ctbox, .ip-pwbox {width:380px;}
+.ip-idbox, .ip-ttbox {width:300px;}
+.ip-ctbox {width:600px;}
+.ip-pwbox {width:280px;}
+
+@media screen and (min-width:600px) and (max-width:999px) {
+	.board-container {width:500px;}
+	.ip-ulbox {border:1px solid #333; width: 220px; height:60px; text-align:center; padding:15px; border-radius:10px;}
+	.ip-idbox, .ip-ttbox {width:300px;}
+	.ip-ctbox {width:400px;}
+	.ip-pwbox {width:280px;}
+}
+@media screen and (max-width:599px) {
+	.board-container {width:500px;}
+	.ip-ulbox {border:1px solid #333; width: 220px; height:60px; text-align:center; padding:15px; border-radius:10px;}
+	.ip-idbox, .ip-ttbox {width:300px;}
+	.ip-ctbox {width:400px;}
+	.ip-pwbox {width:280px;}
+}
+
+/*===== reply.jsp =====  */
+.reply-wrap {margin-top:50px;}
+.rbottom {margin-bottom:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

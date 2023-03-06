@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*===== Reset =====*/
+.sub-bn {height:400px;}
+.mb-container, .poll-container {padding:50px 0;}
+.mb-container li {float:none; padding:5px 0;}
+.flex {display:flex; justify-content:center; padding-top:20px;}
+.btn {margin:0 5px;}
+.body {color:#bca0cb;}
+
+.db-title {
+	width:300px; margin:0 auto;
+	padding:50px 0 30px; font-size:42px; color:#333; text-align:center;
+	font-family:km; font-weight:100; border-bottom:1px solid #bca0cb;
+	transition:all 0.4s ease;
+}
+.db-title:hover {color:#bca0cb;}
+.hd-topmenu li a:nth-child(1), .hd-topmenu li a:nth-child(2), .hd-topmenu li a:nth-child(3) {font-size:18px;}
+
+/*===== Member Join =====*/
+.sub-bn-bg-2 {
+	background:url(../imgs/db/memberjoin.jpg) no-repeat center center;
+	background-size:cover; background-attachment:fixed;
+}
+.memberfrm-box {
+	background:rgba(0,0,0,0.1);
+	border-radius: 5px;
+	box-shadow: 1px 1.5px 0 0 rgba(0,0,0,0.2);
+	width:800px; margin:0 auto;
+}
+.form-control {width:375px;}
+.join-container {width:450px; margin:0 auto;}
+.input-id, .input-zipcode {float:left; width:230px; margin-right:10px;}
+.join-container li:nth-child(5), .join-container li:nth-child(6), .join-container li:nth-child(10), .join-container .btn-login {line-height:40px;}
+.frm-btn {margin-top:30px;}
+.memberfrm-txt {padding-top:5px; color:rgba(0,0,0,0.8); font-size:15px; font-weight:bold; }
+.btn-zipcode {width:130px;}
+.joinjoin-wrap {width:375px; text-align:center; margin-left:32px;}
+.joinjoin {width:375px; height:50px; margin:20px 20px 0 0;}
+.jreset, .jlogin {width:182px; height:50px;}
+.jlogin {line-height:35px; margin-right:17px;}
+
+/*===== Member Login =====*/
+.sub-bn-bg-1 {
+	background:url('../imgs/db/memberjoin.jpg') no-repeat center center;
+	background-size:cover; background-attachment:fixed;
+}
+
+.login-container {width:350px; margin:0 auto;}
+.login-container .input-box {width:285px;}
+.lh-lg strong {color:#bca0cb;}
+.lh-lg {border-bottom:1px solid #333;}
+
+.joinlogin {width:285px; height:50px; margin-left:33px;}
+
+.loginfind {width:285px; text-align:center; margin-left:25px;}
+.find {display:inline-block; margin:10px auto;}
+.fpwd, .fid {height:20px; margin-right:10px; padding-right:10px; border-right:1px solid rgba(0,0,0,0.3);}
+
+.fpwd, .fid, .fjoin {color:rgba(0,0,0,0.6);}
+.fpwd:hover, .fid:hover, .fjoin:hover {color:#bca0cb;}
+
+
+
+/*===== Member Login Success =====*/
+.welcome strong {color:#06F;}
+
+
+/*===== Member MyPage =====*/
+.table-mypage {width:500px; margin:0 auto;}
+.table-mypage td:nth-child(1) {width:120px;}
+.mbtn {margin-top:30px;}
+
+/*===== Member Admin =====*/
+.sub-bn-bg-3 {
+	background:url(../imgs/db/memberlist.jpg) no-repeat center center;
+	background-size:cover; background-attachment:fixed;
+}
+.search-box {width:250px; margin:30px auto;}
+.ad-table {text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
